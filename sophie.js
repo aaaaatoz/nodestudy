@@ -1,2 +1,5 @@
-var movie = require("./sharedModules.js");
-console.log("sohpie's favorite movie is: " + movie.favoriteMovie);
+var movie = require("./objectFactory.js");
+
+var sophieMovie = new movie;
+
+console.log("sohpie's favorite movie is: " + sophieMovie.favMovie);
