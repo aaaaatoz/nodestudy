@@ -1,3 +1,4 @@
+//load the http module
 var https = require("https");
 
 var username = "aaaaatoz";
@@ -30,9 +31,7 @@ var getrepo = function (username, callback) {
     request.end();
 };
 
-getrepo("aaaaatoz", function (repo) {
-    console.log("aaaatoz has " + repo.length + " repos");
-})
+module.exports.getrepo = getrepo
 
 
 

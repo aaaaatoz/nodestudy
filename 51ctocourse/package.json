@@ -1,0 +1,14 @@
+{
+  "name": "rafa-github-api",
+  "version": "1.0.1",
+  "description": "Get a list of github user repos",
+  "main": "githubapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Rafa XU",
+  "license": "ISC"
+}
